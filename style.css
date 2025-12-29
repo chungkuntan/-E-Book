@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  line-height: 2.5;
+  padding: 10px;
+  background: #dbdaa7;
+}
+
+
+
+h1, h2 {
+  text-align: center;
+}
+
+/* Dark mode background */
+body.dark {
+  background: #2e2d2d;
+  color: #eee;
+  transition: all 0.5s ease;
+}
+
+/* Button - light mode */
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+/* Button - dark mode */
+body.dark .btn {
+  background: white;
+  color: black;
+  transition: all 0.5s ease;
+}
+
+
+.nav {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/*.para {
+  text-indent: 2em;
+} */
